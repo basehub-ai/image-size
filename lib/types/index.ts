@@ -15,7 +15,6 @@ import { PNM } from './pnm'
 import { PSD } from './psd'
 import { SVG } from './svg'
 import { TGA } from './tga'
-import { TIFF } from './tiff'
 import { WEBP } from './webp'
 
 export const typeHandlers = {
@@ -35,7 +34,6 @@ export const typeHandlers = {
   psd: PSD,
   svg: SVG,
   tga: TGA,
-  tiff: TIFF,
   webp: WEBP,
 }
 
